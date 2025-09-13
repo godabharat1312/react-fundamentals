@@ -1,11 +1,12 @@
-function ProductCard({name,p,aval}){
+import "./ProductCard.css"
+function ProductCard(items){
     
     return(
-        <>
-            <p>name of product:{name}</p>
-            <p>PRICE:{p}</p>
-            <p>{aval===true?"Product is Available":"product not Available"}</p>        
-        </>
+        <div className="container">
+            <p className="title">Name of product:{items.productName}</p>
+            <p className="price">PRICE:₹{items.price}</p> 
+            {items.isAvailable===true?<p className="stock1">In sock</p>:<p className="stock2">Out of stock</p>}     
+        </div>
     )
 }
 export default ProductCard;

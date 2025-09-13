@@ -1,0 +1,29 @@
+.title{
+    font-size: large;
+    font-weight: bold;
+    color:black;
+}
+.price{
+    font-size: large;
+    font-weight: bold;
+    color: blue;
+}
+.stock1{
+    font-size: large;
+    font-weight: bold;
+    color: green;
+}
+.stock2{
+    font-size: large;
+    font-weight: bold;
+    color: red;
+}
+.container{
+    border:1px solid;
+    padding: 1px;
+    margin: 1px;
+    border-radius: 10%;
+}
+.s{
+    text-align: center;
+}
